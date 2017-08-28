@@ -64,3 +64,6 @@ a.active{
   color: rgba(0, 0, 0, .70);
 }
 
+.disabled{
+  display: none;
+}
