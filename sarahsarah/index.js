@@ -1,31 +1,31 @@
 $(document).ready(function () {
   
-  $('a.Homepage').onclick(function () {
+  $('a.Homepage').click(function () {
     $('a.active').not(this).removeClass('active');
     $(this).addClass('active');
-    $('.able').not('Homepage').removeClass('able').addClass('disabled');
-    $('.Homepage').addClass('able').removeClass('disable');
+    $('div.able').not('Homepage').removeClass('able').addClass('disabled');
+    $('div.Homepage').removeClass('disabled').addClass('able');
   })
 
-  $('a.Portfolio').onclick(function () {
+  $('a.Portfolio').click(function () {
     $('a.active').not(this).removeClass('active');
     $(this).addClass('active');
-    $('.able').not('Portfolio').removeClass('able').addClass('disabled');
-    $('.Portfolio').addClass('able').removeClass('disable');
+    $('div.able').not('Portfolio').removeClass('able').addClass('disabled');
+    $('div.Portfolio').removeClass('disabled').addClass('able');
   })
 
-  $('a.CV').onclick(function () {
+  $('a.CV').click(function () {
     $('a.active').not(this).removeClass('active');
     $(this).addClass('active');
-    $('.able').not('CV').removeClass('able').addClass('disabled');
-    $('.CV').addClass('able').removeClass('disable');
+    $('div.able').not('CV').removeClass('able').addClass('disabled');
+    $('div.CV').removeClass('disabled').addClass('able');
   })
 
-  $('a.Contact').onclick(function () {
+  $('a.Contact').click(function () {
     $('a.active').not(this).removeClass('active');
     $(this).addClass('active');
-    $('.able').not('Contact').removeClass('able').addClass('disabled');
-    $('.Contact').addClass('able').removeClass('disable');
+    $('div.able').not('Contact').removeClass('able').addClass('disabled');
+    $('div.Contact').removeClass('disabled').addClass('able');
   })
 })
 
