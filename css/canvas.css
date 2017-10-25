@@ -1,0 +1,57 @@
+
+
+@media screen and (min-width: 480px) {
+    #canvas .row1{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    #canvas .row1 .row1-col1{
+        width: 55%;
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    #canvas .row1 .row1-col1 .img-container:first-child{
+        margin-bottom: 10px;
+
+    }
+    #canvas .row1 .row1-col2{
+        width: 45%;
+        padding-left: 5px;
+        display: flex;
+    }
+    #canvas .row1 .row1-col2 img{
+        height: 100%;
+    }
+    #canvas .row2{
+        display: flex;
+    }
+
+    #canvas .img-container{
+        position: relative;
+    }
+    #canvas .img-container .cover{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.7);
+        transition: 500ms;
+    }
+    #canvas .img-container:hover .cover{
+        transition: 500ms;
+        opacity: 1;
+    }
+    #canvas .img-container img{
+        width: 100%;
+        z-index: 10;
+    }
+}

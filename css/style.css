@@ -22,6 +22,19 @@
 
 .body-content .bd-sidebar .nav > li {
     text-align: center;
+    margin: 14px 0;
+}
+
+.body-content .bd-sidebar .nav > li a {
+    display: inline;
+    color: inherit;
+    padding: 2px;
+}
+.body-content .bd-sidebar .nav > li a:hover{
+    background-color: inherit;
+}
+.body-content .bd-sidebar .nav > li.social{
+    padding-top: 10px;
 }
 
 .body-content .bd-sidebar i{

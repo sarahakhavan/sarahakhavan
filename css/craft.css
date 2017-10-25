@@ -1,0 +1,35 @@
+
+
+@media screen and (min-width: 480px) {
+    #craft .row1{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    #craft .img-container{
+        position: relative;
+    }
+    #craft .img-container .cover{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.7);
+        transition: 500ms;
+    }
+    #craft .img-container:hover .cover{
+        transition: 500ms;
+        opacity: 1;
+    }
+    #craft .img-container img{
+        width: 100%;
+        z-index: 10;
+    }
+}
