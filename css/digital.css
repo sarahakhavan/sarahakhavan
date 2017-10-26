@@ -1,37 +1,37 @@
 
 
 @media screen and (min-width: 480px) {
-    #craft .row1{
+    #digital .row1{
         display: flex;
         flex-direction: row;
         margin-bottom: 10px;
     }
-    #craft .row1 .row1-col1{
-        width: 52.5%;
+    #digital .row1 .row1-col1{
+        width: 46.5%;
         padding-right: 5px;
         display: flex;
         flex-direction: column;
     }
-    #craft .row1 .row1-col1 .img-container:first-child{
+    #digital .row1 .row1-col1 .img-container:first-child{
         margin-bottom: 10px;
 
     }
-    #craft .row1 .row1-col2{
-        width: 47.5%;
+    #digital .row1 .row1-col2{
+        width: 53.5%;
         padding-left: 5px;
         display: flex;
     }
-    #craft .row1 .row1-col2 img{
+    #digital .row1 .row1-col2 img{
         height: 100%;
     }
-    #craft .row2{
+    #digital .row2{
         display: flex;
     }
 
-    #craft .img-container{
+    #digital .img-container{
         position: relative;
     }
-    #craft .img-container .cover{
+    #digital .img-container .cover{
         display: flex;
         text-decoration: none;
         justify-content: center;
@@ -46,11 +46,11 @@
         background-color: rgba(0,0,0,.7);
         transition: 500ms;
     }
-    #craft .img-container:hover .cover{
+    #digital .img-container:hover .cover{
         transition: 500ms;
         opacity: 1;
     }
-    #craft .img-container img{
+    #digital .img-container img{
         width: 100%;
         z-index: 10;
     }
