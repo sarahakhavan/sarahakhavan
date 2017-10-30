@@ -79,4 +79,8 @@ html, body{
   min-height: 750px;
 }
 
+.img-container img{
+  width: 100%;
+}
+
 
